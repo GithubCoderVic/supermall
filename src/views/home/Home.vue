@@ -161,13 +161,13 @@
 		top: 44px;
 	}
 	.container{
-	/* 	position: absolute;
+		position: absolute;
 	 	top:40px;
 		bottom: 44px;
 		left: 0;
-		right: 0; */
-		margin-top: 44px;
+		right: 0;
+		/* margin-top: 44px;
 		height: calc(100% - 88px);
-		overflow: hidden;
+		overflow: hidden; */
 	}
 </style>
