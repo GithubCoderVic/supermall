@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
 	<div class="wrapper" ref="aaa">
 		<ul class="content">
 			<li>分类</li>
@@ -30,16 +29,6 @@
 			<li>分类</li>
 			<li>分类</li>
 		</ul>
-=======
-	<div class="wrapper">
-		<div>
-			<h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2>
-			<h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2>
-			<h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2>
-			<h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2>
-			<h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2><h2>分类</h2>
-		</div>
->>>>>>> 4c2e424a87502f17bfc6daa2ca60a3b92164f8f8
 	</div>
 	
 </template>
@@ -49,7 +38,6 @@
 	export default{
 		name:"Category",
 		mounted(){
-<<<<<<< HEAD
 			// 默认情况下BScroll是不可以实时监听滚动位置
 			// probeType 侦测
 			// 0,1都是不侦测实时位置
@@ -83,36 +71,5 @@
 	.wrapper{
 		height: 200px;
 		background: red;
-=======
-			const bscroll = new BScroll('.wrapper',{
-				probeType:3,
-				click:true,
-				pullUpLoad:true
-			})
-			bscroll.on('scroll',pos => {
-				// console.log(pos)
-			})
-			bscroll.on('pullingUp',() => {
-				console.log("上拉加载更多")
-				
-				setTimeout(function() {
-					bscroll.finishPullUp()
-				}, 2000);
-				
-			})	
-			}
-			
-			
-			
-			
-	}
-</script>
-
-<style scoped>
-	.wrapper{
-		height: 500px;
-		background: #FF0000;
-		overflow: hidden;
->>>>>>> 4c2e424a87502f17bfc6daa2ca60a3b92164f8f8
 	}
 </style>
