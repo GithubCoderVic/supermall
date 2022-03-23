@@ -13,7 +13,12 @@
 </script>
 
 <style scoped>
+<<<<<<< HEAD
 	.feature img{
 		width: 100%;
 	}
+=======
+	.feature img{width: 100%;}
+	
+>>>>>>> 4c2e424a87502f17bfc6daa2ca60a3b92164f8f8
 </style>

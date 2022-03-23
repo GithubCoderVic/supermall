@@ -1,6 +1,6 @@
 <template>
 
-		<tab-bar>
+		<tab-bar class="tab-bar">
 			<tab-bar-item path="/home">			
 					<img slot="item-icon" src="~assets/img/tabbar/sIcon.png" alt="">
 					<img slot="item-icon-active" src="~assets/img/tabbar/sIcon-active.png" alt="">
@@ -36,5 +36,6 @@
 	}
 </script>
 
-<style>
+<style scoped>
+	.tab-bar{height: 44px;background: #fff;}
 </style>
